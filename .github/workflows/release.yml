@@ -70,6 +70,7 @@ jobs:
             -DLLAMA_BUILD_BORINGSSL=ON ^
             -DGGML_NATIVE=OFF ^
             -DGGML_BACKEND_DL=ON ^
+            -DGGML_ZENDNN=ON ^
             -DLLAMA_FATAL_WARNINGS=OFF ^
             -DGGML_CPU_ALL_VARIANTS=ON ^
             -DGGML_OPENMP=ON ^
